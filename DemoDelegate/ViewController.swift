@@ -44,5 +44,8 @@ class ViewController: UIViewController, LedViewDelegate {
         }
     }
     
+    deinit {
+        print("vc is deinit")
+    }
 }
 

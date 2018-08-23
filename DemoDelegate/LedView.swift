@@ -9,7 +9,7 @@
 import UIKit
 
 class LedView: UIView {
-
+    
     weak var delegate : LedViewDelegate?
     
     var isOn = true{
